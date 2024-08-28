@@ -1,13 +1,13 @@
 <div class="container-fluid services">
     <div class="container">
         <div class="row py-5 my-5" id="counter-box">
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInLeft">
                 <div>
                     <h2 class="text-success text-uppercase fs-5">services we provide</h2>
                     <h1 class="text-blue">Trusted Accounting and Tax Services</h1>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInDown">
                 <div>
                     <div class="counter d-flex border-bottom pb-5">
                         <span class="timer display-1 fw-bold text-success" data-from="25" data-to="475"
@@ -19,7 +19,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInRight">
                 <div>
                     <div class="counter d-flex border-bottom pb-5">
                         <span class="timer display-1 fw-bold text-success" data-from="09" data-to="99"
@@ -33,7 +33,7 @@
             </div>
         </div>
         <div class="row pb-5">
-            <a class="col-md-4 text-decoration-none" href="">
+            <a class="col-md-4 text-decoration-none wow fadeInLeft" href="">
                 <div class="text-center">
                     <figure>
                         <img src="{{ asset('images/accounting-services.jpg') }}" alt=""
@@ -43,7 +43,7 @@
                     <p class="small text-muted">Transactional Work to Financial Statements</p>
                 </div>
             </a>
-            <a class="col-md-4 text-decoration-none" href="">
+            <a class="col-md-4 text-decoration-none wow fadeInDown" href="">
                 <div class="text-center">
                     <figure>
                         <img src="{{ asset('images/tax-services.jpg') }}" alt=""
@@ -53,7 +53,7 @@
                     <p class="small text-muted">Plan, Optimize and File Taxes</p>
                 </div>
             </a>
-            <a class="col-md-4 text-decoration-none" href="">
+            <a class="col-md-4 text-decoration-none wow fadeInRight" href="">
                 <div class="text-center">
                     <figure>
                         <img src="{{ asset('images/cpa-firms.jpg') }}" alt=""
