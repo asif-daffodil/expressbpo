@@ -34,9 +34,16 @@
     <script src="{{ asset('js/wow.min.js') }}"></script>
     <script>
         new WOW().init();
+        $('#carouselExampleCaptions').on('slide.bs.carousel', function(event) {
+            // Get the next slide element
+            let $nextSlide = $(event.relatedTarget);
+            // Add WOW.js animation classes to the next slide's caption elements
+            $nextSlide.find('.carousel-caption > div').addClass('wow bounceInDown');
+            $nextSlide.find('.carousel-caption > a').addClass('wow bounceInUp');
 
-        $('#carouselExampleCaptions').on('slide.bs.carousel', function() {
-            new WOW().init();
+            // Remove WOW.js animation classes from the previous slide to reset
+            $('.carousel-item').not($nextSlide).find('.carousel-caption > div').removeClass('wow bounceInDown');
+            $('.carousel-item').not($nextSlide).find('.carousel-caption > a').removeClass('wow bounceInUp');
         });
     </script>
 

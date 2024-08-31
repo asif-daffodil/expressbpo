@@ -100,3 +100,59 @@
 .carousel-item {
     transition: transform .6s ease-in-out;
 }
+
+@keyframes bounceInDown {
+    0%, 60%, 75%, 90%, to {
+      animation-timing-function: cubic-bezier(.215,.61,.355,1);
+    }
+    0% {
+      opacity: 0;
+      transform: translate3d(0,-3000px,0);
+    }
+    60% {
+      opacity: 1;
+      transform: translate3d(0,25px,0);
+    }
+    75% {
+      transform: translate3d(0,-10px,0);
+    }
+    90% {
+      transform: translate3d(0,5px,0);
+    }
+    to {
+      transform: none;
+    }
+  }
+  
+  @keyframes bounceInUp {
+    0%, 60%, 75%, 90%, to {
+      animation-timing-function: cubic-bezier(.215,.61,.355,1);
+    }
+    0% {
+      opacity: 0;
+      transform: translate3d(0,3000px,0);
+    }
+    60% {
+      opacity: 1;
+      transform: translate3d(0,-20px,0);
+    }
+    75% {
+      transform: translate3d(0,10px,0);
+    }
+    90% {
+      transform: translate3d(0,-5px,0);
+    }
+    to {
+      transform: none;
+    }
+  }
+  
+  /* Add bounceInDown animation to the div elements */
+  .carousel-caption > div {
+    animation: bounceInDown 1s both;
+  }
+  
+  /* Add bounceInUp animation to the a elements (buttons) */
+  .carousel-caption > a {
+    animation: bounceInUp 1s both;
+  }

@@ -37,7 +37,7 @@
                 <div class="text-center">
                     <figure>
                         <img src="{{ asset('images/accounting-services.jpg') }}" alt=""
-                            class="img-fluid shadow shadow-md">
+                            class="img-fluid shadow shadow-md" style="height: 224px; object-fit: cover">
                     </figure>
                     <h3 class="text-uppercase text-blue mt-3 mb-0">Accounting Services</h3>
                     <p class="small text-muted">Transactional Work to Financial Statements</p>
@@ -47,7 +47,7 @@
                 <div class="text-center">
                     <figure>
                         <img src="{{ asset('images/tax-services.jpg') }}" alt=""
-                            class="img-fluid shadow shadow-md">
+                            class="img-fluid shadow shadow-md" style="height: 224px; object-fit: cover">
                     </figure>
                     <h3 class="text-uppercase text-blue mt-3 mb-0">Tax Services</h3>
                     <p class="small text-muted">Plan, Optimize and File Taxes</p>
@@ -57,7 +57,7 @@
                 <div class="text-center">
                     <figure>
                         <img src="{{ asset('images/cpa-firms.jpg') }}" alt=""
-                            class="img-fluid shadow shadow-md">
+                            class="img-fluid shadow shadow-md" style="height: 224px; object-fit: cover">
                     </figure>
                     <h3 class="text-uppercase text-blue mt-3 mb-0">CPA Firms</h3>
                     <p class="small text-muted">Efficient Back-Office Solutions</p>

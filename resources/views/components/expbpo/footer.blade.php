@@ -26,44 +26,44 @@
                         <a class="nav-link text-white ps-0" aria-current="page" href="#">Our Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white-50 ps-0" href="#">Accounting</a>
+                        <a class="nav-link text-white-50 ps-0" href="#">Website Development</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white-50 ps-0" href="#">Tax services</a>
+                        <a class="nav-link text-white-50 ps-0" href="#">Website Maintaining</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white-50 ps-0" href="#">Bookkeeping</a>
+                        <a class="nav-link text-white-50 ps-0" href="#">Digital Marketing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white-50 ps-0" href="#">Audit Services</a>
+                        <a class="nav-link text-white-50 ps-0" href="#">ERP Maintaining</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white-50 ps-0" href="#">Payroll Management</a>
+                        <a class="nav-link text-white-50 ps-0" href="#">IT Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white-50 ps-0" href="#">Advisory Services</a>
+                        <a class="nav-link text-white-50 ps-0" href="#">Video Editing</a>
                     </li>
                 </ul>
             </div>
             <div class="col-md-2">
                 <ul class="nav flex-column footer">
                     <li class="nav-item">
-                        <a class="nav-link text-white ps-0" aria-current="page" href="#">Our Services</a>
+                        <a class="nav-link text-white ps-0" aria-current="page" href="#">Bookkeeping</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white-50 ps-0" href="#">Accounts Payable</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white-50 ps-0" href="#">Accounts Receivable</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white-50 ps-0" href="#">Inventory Management</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white-50 ps-0" href="#">Individual Tax Returns</a>
+                        <a class="nav-link text-white-50 ps-0" href="#">Payroll Management</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white-50 ps-0" href="#">Financial Planning & Analysis</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white-50 ps-0" href="#">Reporting</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white-50 ps-0" href="#">Virtual CFO Services</a>
+                        <a class="nav-link text-white-50 ps-0" href="#">Sale Tax Compliance</a>
                     </li>
                 </ul>
             </div>
@@ -75,13 +75,13 @@
                     <li class="nav-item">
                         <a class="nav-link text-white-50 ps-0" href="#">
                             <i class="fas fa-phone"></i>
-                            +1 123 456 7890
+                            +1613-668-7785
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white-50 ps-0" href="#">
                             <i class="fas fa-envelope"></i>
-                            demo@gmail.com
+                            admin@mynexusbpo.com
                         </a>
                     </li>
                     <li class="nav-item">
