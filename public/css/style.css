@@ -85,14 +85,18 @@
     font-size: 2rem;
 }
 
-.clientList > li > a:hover {
+.clientList>li>a:hover {
     color: #558E55 !important;
 }
 
-.footer > li > a:hover {
+.footer>li>a:hover {
     color: #fff !important;
 }
 
 .dropdown:hover .dropdown-menu {
     display: block;
+}
+
+.carousel-item {
+    transition: transform .6s ease-in-out;
 }
