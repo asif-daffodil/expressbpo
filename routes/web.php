@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\CompanyOverview;
+use App\Http\Controllers\LeadershipTeam;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -30,5 +31,6 @@ Route::middleware('auth')->group(function () {
 });
 
 Route::get('/company-overview', [CompanyOverview::class, 'index'])->name('company-overview');
+Route::get('/leadership-team', [LeadershipTeam::class, 'index'])->name('leadership-team');
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';
