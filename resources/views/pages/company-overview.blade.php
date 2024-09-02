@@ -11,11 +11,11 @@
     </div>
     <div class="container my-4">
         <div class="row py-5">
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInLeft">
                 <h5>Our Company Overview</h5>
                 <h1>Excellence through integrity</h1>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 wow fadeInRight">
                 MyNexusBPO is a leading outsourced accounting, and tax service provider. To address the growing outsourcing
                 needs of small & medium as well as mid-market businesses, we provide end-to-end tax and accounting services
                 as a one stop solution for our clients. With years of experience, knowledge, and integrity, we become

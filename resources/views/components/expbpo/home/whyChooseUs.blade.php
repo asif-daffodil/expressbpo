@@ -1,12 +1,12 @@
 <div class="container">
     <div class="row py-5">
-        <div class="col-md-12 text-center">
+        <div class="col-md-12 text-center wow fadeInDown">
             <h2 class="display-2 text-success">Why Choose Us?</h2>
             <p class="fs-5">We help you to secure a stable and fulfilling financial future</p>
         </div>
     </div>
     <div class="row pb-5">
-        <div class="col-md-4 border-end border-2">
+        <div class="col-md-4 border-end border-2 wow fadeInLeft">
             <div>
                 <span class="text-secondary fs-4">01</span>
                 <h2 class="text-success my-3">Cost-Effective.</h2>
@@ -17,7 +17,7 @@
                 </p>
             </div>
         </div>
-        <div class="col-md-4 border-none border-end">
+        <div class="col-md-4 border-none border-end wow fadeInUp">
             <div>
                 <span class="text-secondary fs-4">02</span>
                 <h2 class="text-success my-3">Cost-Effective.</h2>
@@ -28,7 +28,7 @@
                 </p>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 wow fadeInRight">
             <div>
                 <span class="text-secondary fs-4">03</span>
                 <h2 class="text-success my-3">Data Security.</h2>
