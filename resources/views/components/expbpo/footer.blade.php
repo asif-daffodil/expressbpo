@@ -67,7 +67,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-3">
                 <ul class="nav flex-column footer">
                     <li class="nav-item">
                         <a class="nav-link text-white ps-0" aria-current="page" href="#">Contact Us</a>
@@ -92,7 +92,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <h3 class="text-uppercase text-white">Subscribe to our Newsletter</h3>
                 <p class="text-white-50">Get the latest news and updates from us.</p>
                 <form action="">

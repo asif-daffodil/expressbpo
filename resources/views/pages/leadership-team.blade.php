@@ -110,6 +110,6 @@
                 </div>
             </div>
         </div>
-
     </div>
+    <x-expbpo.home.whyChooseUs />
 @endsection

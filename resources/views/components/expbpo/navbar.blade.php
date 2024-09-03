@@ -20,8 +20,7 @@
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="{{ route('company-overview') }}">Company Overview</a></li>
                         <li><a class="dropdown-item" href="{{ route('leadership-team') }}">Leadership Team</a></li>
-                        <li><a class="dropdown-item" href="#">Why Choose Us</a></li>
-                        <li><a class="dropdown-item" href="#">Our Culture</a></li>
+                        <li><a class="dropdown-item" href="{{ route('why-choose-us') }}">Why Choose Us</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
@@ -33,8 +32,8 @@
                         <div class="d-block d-md-flex">
                             <ul class="nav border-end border-2 d-flex flex-column">
                                 <li><a class="dropdown-item h4" href="#">IT Services</a></li>
-                                <li><a class="dropdown-item" href="#">Website Development</a></li>
-                                <li><a class="dropdown-item" href="#">Website Maintaining</a></li>
+                                <li><a class="dropdown-item" href="{{route('web-development-service')}}">Website Development</a></li>
+                                <li><a class="dropdown-item" href="{{route('website-maintaining-service')}}">Website Maintaining</a></li>
                                 <li><a class="dropdown-item" href="#">ERP Maintening</a></li>
                                 <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
                                 <li><a class="dropdown-item" href="#">SEO</a></li>
@@ -83,7 +82,7 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Contact Us</a>
+                    <a class="nav-link" aria-current="page" href="{{route('contact')}}">Contact Us</a>
                 </li>
             </ul>
         </div>
