@@ -9,7 +9,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 w-100 justify-content-center">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="{{ URL('/') }}">Home</a>
                 </li>
@@ -37,14 +37,14 @@
                                         Development</a></li>
                                 <li><a class="dropdown-item" href="{{ route('website-maintaining-service') }}">Website
                                         Maintaining</a></li>
-                                <li><a class="dropdown-item" href="#">ERP Maintening</a></li>
-                                <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
-                                <li><a class="dropdown-item" href="#">SEO</a></li>
-                                <li><a class="dropdown-item" href="#">Video Editing</a></li>
+                                <li><a class="dropdown-item" href="{{route('erp-maintenance')}}">ERP Maintening</a></li>
+                                <li><a class="dropdown-item" href="{{route('digital-marketing')}}">Digital Marketing</a></li>
+                                <li><a class="dropdown-item" href="{{route('seo-services')}}">SEO</a></li>
+                                <li><a class="dropdown-item" href="{{route('video-editing')}}">Video Editing</a></li>
                             </ul>
                             <ul class="nav border-end border-2 d-flex flex-column">
                                 <li><a class="dropdown-item h4" href="#">Accounting</a></li>
-                                <li><a class="dropdown-item" href="#">Bookkeeping</a></li>
+                                <li><a class="dropdown-item" href="{{route('bookkeeping')}}">Bookkeeping</a></li>
                                 <li><a class="dropdown-item" href="#">Accounts Payable</a></li>
                                 <li><a class="dropdown-item" href="#">Accounts Receivable</a></li>
                                 <li><a class="dropdown-item" href="#">Inventory Management</a></li>
@@ -56,33 +56,10 @@
                         </div>
                     </div>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Resources
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
                         Career
                     </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="{{ route('contact') }}">Contact Us</a>

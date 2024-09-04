@@ -50,7 +50,7 @@
                     <h3 class="card-title">Mohammad Maniruzzaman</h3>
                     <p class="card-text small fst-italic text-muted">Chief Executive Officer</p>
                     <p class="card-text">
-                        Mohammad Maniruzzaman serves as the CEO of MyNexusBPO. He began his journey as a young and
+                        Mohammad Maniruzzaman serves as the CEO of Nexusbpo. He began his journey as a young and
                         ambitious
                         individual with a passion for accounting and taxes. Through his dedication and hard work,
                         Mohammad
@@ -63,7 +63,7 @@
                     </p>
                     <p class="card-text">
                         Beyond his primary role, Mohammad is instrumental in shaping the strategic direction of
-                        MyNexusBPO. He
+                        Nexusbpo. He
                         is deeply involved in innovating business processes, enhancing client relationships, and
                         driving
                         the
@@ -74,11 +74,11 @@
                     </p>
                     {{-- <p>
                                                     <i class="fas fa-phone"></i> +1613-668-7785
-                                                    <i class="fas fa-envelope"></i> ceo@mynexusbpo.com/
+                                                    <i class="fas fa-envelope"></i> ceo@Nexusbpo.com/
                                                 </p> --}}
                     <ul class="nav d-flex flex-column">
                         <li><i class="fas fa-phone"></i> +1613-668-7785</li>
-                        <li><i class="fas fa-envelope"></i> ceo@mynexusbpo.com</li>
+                        <li><i class="fas fa-envelope"></i> ceo@Nexusbpo.com</li>
                     </ul>
                 </div>
             </div>
@@ -93,7 +93,7 @@
                     <h3 class="card-title">Mohammad Aoulad Hossain</h3>
                     <p class="card-text small fst-italic text-muted">Managing Director</p>
                     <p class="card-text">
-                        Mohammad Aoulad Hossain serves as the Managing Director of MyNexusBPO. He started his journey with a
+                        Mohammad Aoulad Hossain serves as the Managing Director of Nexusbpo. He started his journey with a
                         strong drive to make a significant impact in the field of accounting and taxes. Through relentless
                         effort and strategic vision, Mohammad Aoulad transformed a modest operation into one of the leading
                         outsourced accounting and tax firms. He is responsible for overseeing numerous key assignments,
@@ -101,13 +101,13 @@
                     </p>
                     <p class="card-text">
                         As the Managing Director, Mohammad Aoulad plays a crucial role in setting the strategic direction of
-                        MyNexusBPO. His work focuses on business innovation, optimizing client relationships, and
+                        Nexusbpo. His work focuses on business innovation, optimizing client relationships, and
                         spearheading the company's growth. His leadership is characterized by a commitment to fostering a
                         collaborative environment where team members are empowered to excel and deliver outstanding results.
                     </p>
                     <ul class="nav d-flex flex-column">
                         <li><i class="fas fa-phone"></i> +8801879-747459</li>
-                        <li><i class="fas fa-envelope"></i> md@mynexusbpo.com</li>
+                        <li><i class="fas fa-envelope"></i> md@Nexusbpo.com</li>
                     </ul>
                 </div>
             </div>

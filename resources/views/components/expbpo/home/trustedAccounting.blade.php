@@ -69,29 +69,3 @@
         </div>
     </div>
 </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-countto/1.2.0/jquery.countTo.min.js"></script>
-<script>
-    $(window).scroll(function() {
-        var oTop = $("#counter-box").offset().top - window.innerHeight;
-        if ($(window).scrollTop() > oTop) {
-            $('.timer').each(function() {
-                var $this = $(this),
-                    countTo = $this.attr('data-to');
-                $({
-                    countNum: $this.text()
-                }).animate({
-                    countNum: countTo
-                }, {
-                    duration: 2000,
-                    easing: 'swing',
-                    step: function() {
-                        $this.text(Math.floor(this.countNum));
-                    },
-                    complete: function() {
-                        $this.text(this.countNum);
-                    }
-                });
-            });
-        }
-    })
-</script>

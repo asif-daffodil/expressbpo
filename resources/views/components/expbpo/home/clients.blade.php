@@ -8,7 +8,7 @@
                 </div>
             </div>
             <div class="col-md-8 d-flex align-items-center wow fadeInRight">
-                MyNexusBpo is an outsourced accounting service provider that works with clients across a diverse range
+                Nexusbpo is an outsourced accounting service provider that works with clients across a diverse range
                 of industries. Our team of experienced accounting professionals has a deep understanding of the unique
                 financial challenges faced by businesses in various industries, and we tailor our services to meet the
                 specific needs of each client.

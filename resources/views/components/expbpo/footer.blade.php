@@ -81,7 +81,7 @@
                     <li class="nav-item">
                         <a class="nav-link text-white-50 ps-0" href="#">
                             <i class="fas fa-envelope"></i>
-                            admin@mynexusbpo.com
+                            admin@Nexusbpo.com
                         </a>
                     </li>
                     <li class="nav-item">
