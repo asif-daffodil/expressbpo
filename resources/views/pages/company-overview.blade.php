@@ -4,8 +4,8 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 px-0">
-                <img src="{{ asset('images/office.jpg') }}" alt="" class="img-fluid w-100"
-                    style="height: 50vh; object-fit: cover">
+                <img loading="lazy" decoding="async" fetchpriority="high" src="{{ asset('images/office.jpg') }}" alt=""
+                    class="img-fluid w-100" style="height: 50vh; object-fit: cover">
             </div>
         </div>
     </div>

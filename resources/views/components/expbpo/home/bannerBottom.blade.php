@@ -19,7 +19,9 @@
                         <h5>Explore Our Company</h5>
                         <i class="fa-solid fa-arrow-up-right-dots"></i>
                     </div>
-                    <img src="{{ asset('images/exploreOurCompany.jpg') }}" alt="" class="w-50" style="height: 160px; object-fit: cover">
+                    <img loading="lazy" decoding="async" fetchpriority="high"
+                        src="{{ asset('images/exploreOurCompany.jpg') }}" alt="" class="w-50"
+                        style="height: 160px; object-fit: cover" loading="lazy">
                 </a>
             </div>
             <div class="col-md-4 wow fadeInDown">
@@ -28,7 +30,9 @@
                         <h5>Why Choose Us</h5>
                         <i class="fa-solid fa-arrow-up-right-dots"></i>
                     </div>
-                    <img src="{{ asset('images/why_choose_us_image.jpg') }}" alt="" class="w-50" style="height: 160px; object-fit: cover">
+                    <img loading="lazy" decoding="async" fetchpriority="high"
+                        src="{{ asset('images/why_choose_us_image.jpg') }}" alt="" class="w-50"
+                        style="height: 160px; object-fit: cover">
                 </a>
             </div>
             <div class="col-md-4 wow fadeInRight">
@@ -37,7 +41,9 @@
                         <h5>View Our Services</h5>
                         <i class="fa-solid fa-arrow-up-right-dots"></i>
                     </div>
-                    <img src="{{ asset('images/viewOurServices.jpg') }}" alt="" class="w-50" style="height: 160px; object-fit: cover">
+                    <img loading="lazy" decoding="async" fetchpriority="high"
+                        src="{{ asset('images/viewOurServices.jpg') }}" alt="" class="w-50"
+                        style="height: 160px; object-fit: cover">
                 </a>
             </div>
         </div>

@@ -1,7 +1,8 @@
 <nav class="navbar navbar-expand-lg bg-blue navbar-dark">
     <div class="container">
         <a class="navbar-brand" href="#">
-            <img src="{{ asset('images/logo.png') }}" alt="logo" class="img-fluid" style="height: 4rem">
+            <img loading="lazy" decoding="async" fetchpriority="high" src="{{ asset('images/logo.png') }}" alt="logo"
+                class="img-fluid" style="height: 4rem">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,8 +33,10 @@
                         <div class="d-block d-md-flex">
                             <ul class="nav border-end border-2 d-flex flex-column">
                                 <li><a class="dropdown-item h4" href="#">IT Services</a></li>
-                                <li><a class="dropdown-item" href="{{route('web-development-service')}}">Website Development</a></li>
-                                <li><a class="dropdown-item" href="{{route('website-maintaining-service')}}">Website Maintaining</a></li>
+                                <li><a class="dropdown-item" href="{{ route('web-development-service') }}">Website
+                                        Development</a></li>
+                                <li><a class="dropdown-item" href="{{ route('website-maintaining-service') }}">Website
+                                        Maintaining</a></li>
                                 <li><a class="dropdown-item" href="#">ERP Maintening</a></li>
                                 <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
                                 <li><a class="dropdown-item" href="#">SEO</a></li>
@@ -82,7 +85,7 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="{{route('contact')}}">Contact Us</a>
+                    <a class="nav-link" aria-current="page" href="{{ route('contact') }}">Contact Us</a>
                 </li>
             </ul>
         </div>

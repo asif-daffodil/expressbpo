@@ -36,7 +36,8 @@
             <a class="col-md-4 text-decoration-none wow fadeInLeft" href="">
                 <div class="text-center">
                     <figure>
-                        <img src="{{ asset('images/accounting-services.jpg') }}" alt=""
+                        <img loading="lazy" decoding="async" fetchpriority="high"
+                            src="{{ asset('images/accounting-services.jpg') }}" alt=""
                             class="img-fluid shadow shadow-md" style="height: 224px; object-fit: cover">
                     </figure>
                     <h3 class="text-uppercase text-blue mt-3 mb-0">Accounting Services</h3>
@@ -46,7 +47,8 @@
             <a class="col-md-4 text-decoration-none wow fadeInDown" href="">
                 <div class="text-center">
                     <figure>
-                        <img src="{{ asset('images/tax-services.jpg') }}" alt=""
+                        <img loading="lazy" decoding="async" fetchpriority="high"
+                            src="{{ asset('images/tax-services.jpg') }}" alt=""
                             class="img-fluid shadow shadow-md" style="height: 224px; object-fit: cover">
                     </figure>
                     <h3 class="text-uppercase text-blue mt-3 mb-0">Tax Services</h3>
@@ -56,8 +58,9 @@
             <a class="col-md-4 text-decoration-none wow fadeInRight" href="">
                 <div class="text-center">
                     <figure>
-                        <img src="{{ asset('images/cpa-firms.jpg') }}" alt=""
-                            class="img-fluid shadow shadow-md" style="height: 224px; object-fit: cover">
+                        <img loading="lazy" decoding="async" fetchpriority="high"
+                            src="{{ asset('images/cpa-firms.jpg') }}" alt="" class="img-fluid shadow shadow-md"
+                            style="height: 224px; object-fit: cover">
                     </figure>
                     <h3 class="text-uppercase text-blue mt-3 mb-0">CPA Firms</h3>
                     <p class="small text-muted">Efficient Back-Office Solutions</p>

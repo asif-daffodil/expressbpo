@@ -97,8 +97,8 @@
                 <p class="text-white-50">Get the latest news and updates from us.</p>
                 <form action="">
                     <div class="input-group mb-3">
-                        <input type="email" class="form-control" placeholder="Enter your email" aria-label="Enter your email"
-                            aria-describedby="button-addon2">
+                        <input type="email" class="form-control" placeholder="Enter your email"
+                            aria-label="Enter your email" aria-describedby="button-addon2">
                         <button class="btn btn-primary" type="button" id="button-addon2">Subscribe</button>
                     </div>
                 </form>

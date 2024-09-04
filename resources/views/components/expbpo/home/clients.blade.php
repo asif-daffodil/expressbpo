@@ -70,7 +70,8 @@
             <a class="col-md-4 text-decoration-none" href="">
                 <div class="text-center">
                     <figure>
-                        <img src="{{ asset('images/for-us-based-cpa-firms.webp') }}" alt=""
+                        <img loading="lazy" decoding="async" fetchpriority="high"
+                            src="{{ asset('images/for-us-based-cpa-firms.webp') }}" alt=""
                             class="img-fluid shadow shadow-md w-100" style="height: 224px; object-fit: cover;">
                     </figure>
                     <h3 class="text-uppercase text-blue mt-3 mb-0 h5 mb-5">Website Development</h3>
@@ -79,7 +80,8 @@
             <a class="col-md-4 text-decoration-none" href="">
                 <div class="text-center">
                     <figure>
-                        <img src="{{ asset('images/for-us-based-ecommerce-companies.webp') }}" alt=""
+                        <img loading="lazy" decoding="async" fetchpriority="high"
+                            src="{{ asset('images/for-us-based-ecommerce-companies.webp') }}" alt=""
                             class="img-fluid shadow shadow-md w-100" style="height: 224px; object-fit: cover;">
                     </figure>
                     <h3 class="text-uppercase text-blue mt-3 mb-0 h5 mb-5">Website Maintaining</h3>
@@ -88,7 +90,8 @@
             <a class="col-md-4 text-decoration-none" href="">
                 <div class="text-center">
                     <figure>
-                        <img src="{{ asset('images/for-us-based-wireless-companies.png') }}" alt=""
+                        <img loading="lazy" decoding="async" fetchpriority="high"
+                            src="{{ asset('images/for-us-based-wireless-companies.png') }}" alt=""
                             class="img-fluid shadow shadow-md w-100" style="height: 224px; object-fit: cover;">
                     </figure>
                     <h3 class="text-uppercase text-blue mt-3 mb-0 h5 mb-5">IT Services</h3>
@@ -97,7 +100,8 @@
             <a class="col-md-4 text-decoration-none" href="">
                 <div class="text-center">
                     <figure>
-                        <img src="{{ asset('images/for-us-based-companies-using-netsuite-sap-erp-system.webp') }}"
+                        <img loading="lazy" decoding="async" fetchpriority="high"
+                            src="{{ asset('images/for-us-based-companies-using-netsuite-sap-erp-system.webp') }}"
                             alt="" class="img-fluid shadow shadow-md w-100"
                             style="height: 224px; object-fit: cover;">
                     </figure>
@@ -107,7 +111,8 @@
             <a class="col-md-4 text-decoration-none" href="">
                 <div class="text-center">
                     <figure>
-                        <img src="{{ asset('images/for-us-based-fundmanagers-and-vc-firms.jpg') }}" alt=""
+                        <img loading="lazy" decoding="async" fetchpriority="high"
+                            src="{{ asset('images/for-us-based-fundmanagers-and-vc-firms.jpg') }}" alt=""
                             class="img-fluid shadow shadow-md w-100" style="height: 224px; object-fit: cover;">
                     </figure>
                     <h3 class="text-uppercase text-blue mt-3 mb-0 h5 mb-5">SEO</h3>
@@ -116,7 +121,8 @@
             <a class="col-md-4 text-decoration-none" href="">
                 <div class="text-center">
                     <figure>
-                        <img src="{{ asset('images/video-editing.jpg') }}" alt=""
+                        <img loading="lazy" decoding="async" fetchpriority="high"
+                            src="{{ asset('images/video-editing.jpg') }}" alt=""
                             class="img-fluid shadow shadow-md w-100" style="height: 224px; object-fit: cover;">
                     </figure>
                     <h3 class="text-uppercase text-blue mt-3 mb-0 h5 mb-5">Video Editing</h3>

@@ -4,8 +4,8 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 px-0">
-                <img src="{{ asset('images/office.jpg') }}" alt="" class="img-fluid w-100"
-                    style="height: 50vh; object-fit: cover">
+                <img loading="lazy" decoding="async" fetchpriority="high" src="{{ asset('images/office.jpg') }}" alt=""
+                    class="img-fluid w-100" style="height: 50vh; object-fit: cover">
             </div>
         </div>
     </div>
@@ -42,7 +42,8 @@
         </div>
         <div class="row">
             <div class="col-md-4 wow fadeInLeft">
-                <img src="{{ asset('images/manuruzzaman.jpg') }}" class="img-thumbnail p-3" alt="...">
+                <img loading="lazy" decoding="async" fetchpriority="high" src="{{ asset('images/manuruzzaman.jpg') }}"
+                    class="img-thumbnail p-3" alt="...">
             </div>
             <div class="col-md-8 wow fadeInRight">
                 <div class="card-body">
@@ -84,7 +85,8 @@
         </div>
         <div class="row my-5">
             <div class="col-md-4 wow fadeInLeft">
-                <img src="{{ asset('images/Aoulad.jpg') }}" class="img-thumbnail p-3" alt="...">
+                <img loading="lazy" decoding="async" fetchpriority="high" src="{{ asset('images/Aoulad.jpg') }}"
+                    class="img-thumbnail p-3" alt="...">
             </div>
             <div class="col-md-8 wow fadeInRight">
                 <div class="card-body">
