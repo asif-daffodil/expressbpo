@@ -1,12 +1,18 @@
 <?php
 
+use App\Http\Controllers\AccountPayable;
+use App\Http\Controllers\AccountReceivable;
 use App\Http\Controllers\BookKeeping;
 use App\Http\Controllers\CompanyOverview;
 use App\Http\Controllers\Contact;
 use App\Http\Controllers\DigitalMarketing;
 use App\Http\Controllers\ErpMaintenance;
+use App\Http\Controllers\InventoryManagement;
 use App\Http\Controllers\LeadershipTeam;
+use App\Http\Controllers\PayrollManagement;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\Reporting;
+use App\Http\Controllers\SaleTaxCompliance;
 use App\Http\Controllers\SeoServices;
 use App\Http\Controllers\VideoEditing;
 use App\Http\Controllers\WebDevelopmentService;
@@ -50,5 +56,11 @@ Route::get('/digital-marketing', [DigitalMarketing::class, 'index'])->name('digi
 Route::get('/seo-services', [SeoServices::class, 'index'])->name('seo-services');
 Route::get('/video-editing', [VideoEditing::class, 'index'])->name('video-editing');
 Route::get('/bookkeeping', [BookKeeping::class, 'index'])->name('bookkeeping');
+Route::get('/account-payable', [AccountPayable::class, 'index'])->name('account-payable');
+Route::get('/account-receivable', [AccountReceivable::class, 'index'])->name('account-receivable');
+Route::get('/inventory-management', [InventoryManagement::class, 'index'])->name('inventory-management');
+Route::get('/payroll-management', [PayrollManagement::class, 'index'])->name('payroll-management');
+Route::get('/sale-tax-compliance', [SaleTaxCompliance::class, 'index'])->name('sale-tax-compliance');
+Route::get('/reporting', [Reporting::class, 'index'])->name('reporting');
 
 require __DIR__ . '/auth.php';

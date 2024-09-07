@@ -37,20 +37,27 @@
                                         Development</a></li>
                                 <li><a class="dropdown-item" href="{{ route('website-maintaining-service') }}">Website
                                         Maintaining</a></li>
-                                <li><a class="dropdown-item" href="{{route('erp-maintenance')}}">ERP Maintening</a></li>
-                                <li><a class="dropdown-item" href="{{route('digital-marketing')}}">Digital Marketing</a></li>
-                                <li><a class="dropdown-item" href="{{route('seo-services')}}">SEO</a></li>
-                                <li><a class="dropdown-item" href="{{route('video-editing')}}">Video Editing</a></li>
+                                <li><a class="dropdown-item" href="{{ route('erp-maintenance') }}">ERP Maintening</a>
+                                </li>
+                                <li><a class="dropdown-item" href="{{ route('digital-marketing') }}">Digital
+                                        Marketing</a></li>
+                                <li><a class="dropdown-item" href="{{ route('seo-services') }}">SEO</a></li>
+                                <li><a class="dropdown-item" href="{{ route('video-editing') }}">Video Editing</a></li>
                             </ul>
                             <ul class="nav border-end border-2 d-flex flex-column">
                                 <li><a class="dropdown-item h4" href="#">Accounting</a></li>
-                                <li><a class="dropdown-item" href="{{route('bookkeeping')}}">Bookkeeping</a></li>
-                                <li><a class="dropdown-item" href="#">Accounts Payable</a></li>
-                                <li><a class="dropdown-item" href="#">Accounts Receivable</a></li>
-                                <li><a class="dropdown-item" href="#">Inventory Management</a></li>
-                                <li><a class="dropdown-item" href="#">Payroll Management</a></li>
-                                <li><a class="dropdown-item" href="#">Sale Tax Compliance</a></li>
-                                <li><a class="dropdown-item" href="#">Reporting</a></li>
+                                <li><a class="dropdown-item" href="{{ route('bookkeeping') }}">Bookkeeping</a></li>
+                                <li><a class="dropdown-item" href="{{ route('account-payable') }}">Accounts Payable</a>
+                                </li>
+                                <li><a class="dropdown-item" href="{{ route('account-receivable') }}">Accounts
+                                        Receivable</a></li>
+                                <li><a class="dropdown-item" href="{{ route('inventory-management') }}">Inventory
+                                        Management</a></li>
+                                <li><a class="dropdown-item" href="{{ route('payroll-management') }}">Payroll
+                                        Management</a></li>
+                                <li><a class="dropdown-item" href="{{ route('sale-tax-compliance') }}">Sale Tax
+                                        Compliance</a></li>
+                                <li><a class="dropdown-item" href="{{ route('reporting') }}">Reporting</a></li>
                                 <li><a class="dropdown-item" href="#">Quickbooks Accounting</a></li>
                             </ul>
                         </div>
