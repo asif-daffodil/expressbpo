@@ -87,7 +87,7 @@
                     <li class="nav-item">
                         <a class="nav-link text-white-50 ps-0" href="#">
                             <i class="fas fa-map-marker-alt"></i>
-                            123, Main Street, New York
+                            47/10, Pashchim Rajabazar, Sher-E-Bangla Nagar, Dhaka-1215, Bangladesh 
                         </a>
                     </li>
                 </ul>
