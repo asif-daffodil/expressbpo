@@ -1,8 +1,8 @@
-<nav class="navbar navbar-expand-lg bg-blue navbar-dark">
+<nav class="navbar navbar-expand-lg bg-light navbar-light">
     <div class="container">
         <a class="navbar-brand" href="#">
-            <img loading="lazy" decoding="async" fetchpriority="high" src="{{ asset('images/logo.png') }}" alt="logo"
-                class="img-fluid" style="height: 4rem">
+            <img loading="lazy" decoding="async" fetchpriority="high" src="{{ asset('images/nexusbpo-logo.png') }}"
+                alt="logo" class="img-fluid" style="height: 2rem">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
