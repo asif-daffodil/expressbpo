@@ -33,13 +33,13 @@
             </div>
             <div class="d-none d-lg-flex ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link px-2" href="mailto:asif@dti.ac">
-                        <i class="fas fa-envelope"></i> asif@dti.ac
+                    <a class="nav-link px-2" href="mailto:admin@Nexusbpo.com">
+                        <i class="fas fa-envelope"></i> admin@nexusbpo.com
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-2" href="tel:+8801712345678">
-                        <i class="fas fa-phone"></i> +8801712345678
+                    <a class="nav-link px-2" href="tel:+16136687785">
+                        <i class="fas fa-phone"></i> +1613-668-7785
                     </a>
                 </li>
             </div>
