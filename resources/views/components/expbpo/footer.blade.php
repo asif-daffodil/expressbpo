@@ -81,13 +81,13 @@
                     <li class="nav-item">
                         <a class="nav-link text-white-50 ps-0" href="#">
                             <i class="fas fa-envelope"></i>
-                            admin@Nexusbpo.com
+                            admin@nexusbpo.com
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white-50 ps-0" href="#">
                             <i class="fas fa-map-marker-alt"></i>
-                            47/10, Pashchim Rajabazar, Sher-E-Bangla Nagar, Dhaka-1215, Bangladesh 
+                            47/10, Pashchim Rajabazar, Sher-E-Bangla Nagar, Dhaka-1215, Bangladesh
                         </a>
                     </li>
                 </ul>
