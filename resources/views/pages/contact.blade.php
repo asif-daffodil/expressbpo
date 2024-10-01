@@ -14,7 +14,15 @@
             <!-- Contact Form Section -->
             <div class="col-md-6 wow fadeInUp">
                 <h3 class="mb-4">Get in Touch</h3>
-                <form>
+                {{-- session has success --}}
+                @if (session('success'))
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        {{ session('success') }}
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                @endif
+                <form action={{route('contact.sendEmail')}} method="post">
+                    @csrf
                     <div class="mb-3">
                         <label for="name" class="form-label">Your Name</label>
                         <input type="text" class="form-control" id="name" placeholder="Enter your name" required>

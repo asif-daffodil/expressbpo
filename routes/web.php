@@ -51,6 +51,7 @@ Route::get('/why-choose-us', [WhyChooseUS::class, 'index'])->name('why-choose-us
 Route::get('/web-development-service', [WebDevelopmentService::class, 'index'])->name('web-development-service');
 Route::get('/website-maintaining-service', [WebsiteMaintainingService::class, 'index'])->name('website-maintaining-service');
 Route::get('/contact', [Contact::class, 'index'])->name('contact');
+Route::post('/contact', [Contact::class, 'sendEmail'])->name('contact.sendEmail');
 Route::get('/erp-maintenance', [ErpMaintenance::class, 'index'])->name('erp-maintenance');
 Route::get('/digital-marketing', [DigitalMarketing::class, 'index'])->name('digital-marketing');
 Route::get('/seo-services', [SeoServices::class, 'index'])->name('seo-services');
