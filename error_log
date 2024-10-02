@@ -1,0 +1,1 @@
+[02-Oct-2024 09:53:06 UTC] PHP Fatal error:  Cannot declare class App\Http\Controllers\ContactController, because the name is already in use in /home/rh250ds7n7oi/public_html/app/Http/Controllers/Contact.php on line 8

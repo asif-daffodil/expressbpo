@@ -8,10 +8,11 @@ use Illuminate\Mail\Mailable;
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
+use Illuminate\Mail\Mailables\Address;
 
 class ContactMail extends Mailable
 {
-    use Queueable, SerializesModels;
+    use SerializesModels;
     public $data;
     /**
      * Create a new message instance.
@@ -27,7 +28,8 @@ class ContactMail extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: $this->data['subject'],
+            from: new Address('admin@mynexusbpo.com', 'Nexus BPO'),
+            subject: "Customer Message",
         );
     }
 
@@ -38,6 +40,7 @@ class ContactMail extends Mailable
     {
         return new Content(
             view: 'emails.contact',
+            with: $this->data
         );
     }
 
