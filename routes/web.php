@@ -3,6 +3,7 @@
 use App\Http\Controllers\AccountPayable;
 use App\Http\Controllers\AccountReceivable;
 use App\Http\Controllers\BookKeeping;
+use App\Http\Controllers\CareerController;
 use App\Http\Controllers\CompanyOverview;
 use App\Http\Controllers\Contact;
 use App\Http\Controllers\DigitalMarketing;
@@ -63,5 +64,6 @@ Route::get('/inventory-management', [InventoryManagement::class, 'index'])->name
 Route::get('/payroll-management', [PayrollManagement::class, 'index'])->name('payroll-management');
 Route::get('/sale-tax-compliance', [SaleTaxCompliance::class, 'index'])->name('sale-tax-compliance');
 Route::get('/reporting', [Reporting::class, 'index'])->name('reporting');
+Route::get('/career', [CareerController::class, 'index'])->name('career');
 
 require __DIR__ . '/auth.php';
