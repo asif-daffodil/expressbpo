@@ -8,7 +8,7 @@
                 </h3>
             </div>
             <div class="col-md-6 wow fadeInRight">
-                Nexusbpo is a leading Outsourced Accounting & Tax solutions company. We operate as your full-charge
+                NEXUSBPO is a leading Outsourced Accounting & Tax solutions company. We operate as your full-charge
                 accounting department providing comprehensive accounting & tax services.
             </div>
         </div>

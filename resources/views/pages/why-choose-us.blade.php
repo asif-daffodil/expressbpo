@@ -12,7 +12,7 @@
         <div class="text-center mb-5 wow fadeInUp">
             <h2>Why Choose Us</h2>
             <p class="lead">We will keep you on the right track</p>
-            <p class="text-muted">At Nexusbpo Ltd, we understand the importance of having reliable and accurate financial
+            <p class="text-muted">At NEXUSBPO Ltd, we understand the importance of having reliable and accurate financial
                 information to make informed business decisions. By choosing our outsourced accounting and tax preparation
                 services, you can benefit from our years of experience and expertise in providing tailored financial
                 solutions that are designed to optimize your business operations.</p>

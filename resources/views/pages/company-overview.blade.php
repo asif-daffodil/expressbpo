@@ -15,13 +15,13 @@
                 <h5>Our Company Overview</h5>
                 <h1>Excellence through integrity</h1>
             </div>
-            <div class="col-md-8 wow fadeInRight">
-                Nexusbpo is a leading outsourced accounting, and tax service provider. To address the growing outsourcing
-                needs of small & medium as well as mid-market businesses, we provide end-to-end tax and accounting services
-                as a one stop solution for our clients. With years of experience, knowledge, and integrity, we become
-                reliable extensions of our clients’ offices, so they can focus on their core competencies. Our team of 475+
-                professionals including certified public accountants, chartered accountants, and staff accountants make this
-                possible.
+            <div class="col-md-8 wow fadeInRight" style="text-align: justify">
+                NEXUSBPO is a premier provider of IT and accounting services, offering comprehensive solutions to meet the
+                growing outsourcing demands of small, medium, and mid-market businesses. We deliver a seamless, end-to-end
+                experience in both the IT and accounting fields, allowing our clients to focus on their core operations
+                while we handle their technological and financial needs. Our team of over 475 skilled professionals,
+                including IT experts, certified public accountants, and chartered accountants, brings extensive experience
+                and integrity to every project, making us a trusted extension of our clients' businesses.
             </div>
         </div>
     </div>

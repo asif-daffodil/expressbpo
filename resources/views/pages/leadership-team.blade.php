@@ -9,7 +9,7 @@
             </div>
         </div>
     </div>
-    <div class="container my-4">
+    <div class="container my-4" style="text-align: justify">
         <div class="row py-5">
             <div class="col-md-4 wow fadeInLeft">
                 <h5 class="text-blue">Guided by experience driven by passion</h5>
@@ -50,7 +50,7 @@
                     <h3 class="card-title">Mohammad Maniruzzaman</h3>
                     <p class="card-text small fst-italic text-muted">Chief Executive Officer</p>
                     <p class="card-text">
-                        Mohammad Maniruzzaman serves as the CEO of Nexusbpo. He began his journey as a young and
+                        Mohammad Maniruzzaman serves as the CEO of NEXUSBPO. He began his journey as a young and
                         ambitious
                         individual with a passion for accounting and taxes. Through his dedication and hard work,
                         Mohammad
@@ -63,7 +63,7 @@
                     </p>
                     <p class="card-text">
                         Beyond his primary role, Mohammad is instrumental in shaping the strategic direction of
-                        Nexusbpo. He
+                        NEXUSBPO. He
                         is deeply involved in innovating business processes, enhancing client relationships, and
                         driving
                         the
@@ -101,13 +101,13 @@
                     </p>
                     <p class="card-text">
                         As the Managing Director, Mohammad Aoulad plays a crucial role in setting the strategic direction of
-                        Nexusbpo. His work focuses on business innovation, optimizing client relationships, and
+                        NEXUSBPO. His work focuses on business innovation, optimizing client relationships, and
                         spearheading the company's growth. His leadership is characterized by a commitment to fostering a
                         collaborative environment where team members are empowered to excel and deliver outstanding results.
                     </p>
                     <ul class="nav d-flex flex-column">
                         <li><i class="fas fa-phone"></i> +8801879-747459</li>
-                        <li><i class="fas fa-envelope"></i> md@Nexusbpo.com</li>
+                        <li><i class="fas fa-envelope"></i> md@mynexusbpo.com</li>
                     </ul>
                 </div>
             </div>

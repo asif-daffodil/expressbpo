@@ -3,7 +3,7 @@
         <div class="carousel-item active">
             <img loading="lazy" decoding="async" fetchpriority="high" src="{{ asset('images/banners/slider2.jpg') }}"
                 class="d-block w-100 min-vh-100" alt="..." style="object-fit: cover">
-            <div class="carousel-caption">
+            <div class="carousel-caption w-100">
                 <div class="h1 wow bounceInDown">Outsourced Accounting and Tax Solution</div>
                 <a href="#" class="btn btn-primary wow bounceInUp">Book a Consultation</a>
             </div>
@@ -11,7 +11,7 @@
         <div class="carousel-item">
             <img loading="lazy" decoding="async" fetchpriority="high" src="{{ asset('images/banners/slider2.jpg') }}"
                 class="d-block w-100 min-vh-100" alt="..." style="object-fit: cover">
-            <div class="carousel-caption">
+            <div class="carousel-caption w-100">
                 <div class="h1 wow bounceInDown">Inventory Management</div>
                 <a href="#" class="btn btn-primary wow bounceInUp">Book a Consultation</a>
             </div>
@@ -19,7 +19,7 @@
         <div class="carousel-item">
             <img loading="lazy" decoding="async" fetchpriority="high" src="{{ asset('images/banners/slider2.jpg') }}"
                 class="d-block w-100 min-vh-100" alt="..." style="object-fit: cover">
-            <div class="carousel-caption">
+            <div class="carousel-caption w-100">
                 <div class="h1 wow bounceInDown">Financial Planning & Analysis</div>
                 <a href="#" class="btn btn-primary wow bounceInUp">Book a Consultation</a>
             </div>
