@@ -85,7 +85,7 @@
         </div>
         <div class="row my-5">
             <div class="col-md-4 wow fadeInLeft">
-                <img loading="lazy" decoding="async" fetchpriority="high" src="{{ asset('images/Aoulad.jpg') }}"
+                <img loading="lazy" decoding="async" fetchpriority="high" src="{{ asset('images/aoulad.webp') }}"
                     class="img-thumbnail p-3" alt="...">
             </div>
             <div class="col-md-8 wow fadeInRight">
