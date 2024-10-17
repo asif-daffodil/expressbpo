@@ -5,7 +5,7 @@
                 class="d-block w-100 min-vh-100" alt="..." style="object-fit: cover">
             <div class="carousel-caption w-100">
                 <div class="h1 wow bounceInDown">Outsourced Accounting and Tax Solution</div>
-                <a href="#" class="btn btn-primary wow bounceInUp">Book a Consultation</a>
+                <a href="./contact" class="btn btn-primary wow bounceInUp">Book a Consultation</a>
             </div>
         </div>
         <div class="carousel-item">
@@ -13,7 +13,7 @@
                 class="d-block w-100 min-vh-100" alt="..." style="object-fit: cover">
             <div class="carousel-caption w-100">
                 <div class="h1 wow bounceInDown">Inventory Management</div>
-                <a href="#" class="btn btn-primary wow bounceInUp">Book a Consultation</a>
+                <a href="./contact" class="btn btn-primary wow bounceInUp">Book a Consultation</a>
             </div>
         </div>
         <div class="carousel-item">
@@ -21,7 +21,7 @@
                 class="d-block w-100 min-vh-100" alt="..." style="object-fit: cover">
             <div class="carousel-caption w-100">
                 <div class="h1 wow bounceInDown">Financial Planning & Analysis</div>
-                <a href="#" class="btn btn-primary wow bounceInUp">Book a Consultation</a>
+                <a href="./contact" class="btn btn-primary wow bounceInUp">Book a Consultation</a>
             </div>
         </div>
     </div>

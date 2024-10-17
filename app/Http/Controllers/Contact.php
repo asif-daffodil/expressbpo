@@ -13,28 +13,29 @@ class Contact extends Controller
         return view('pages.contact');
     }
 
-/* 
-public function sendEmail()
-{
-    $data = request()->validate([
-        'name' => 'required',
-        'email' => 'required|email',
-        'subject' => 'required',
-        'message' => 'required',
-    ]);
 
-    try {
-        // Send email
-        Mail::to("lecturer1@dipti.com.bd")->send(new ContactMail($data));
+    public function sendEmail()
+    {
+        $data = request()->validate([
+            'name' => 'required',
+            'email' => 'required|email',
+            'subject' => 'required',
+            'message' => 'required',
+        ]);
 
-        return redirect()->back()->with('success', 'Your message has been sent successfully!');
-    } catch (\Exception $e) {
-        // Log error and return failure message
-        \Log::error('Mail send failed: ' . $e->getMessage());
-        return redirect()->back()->with('error', 'There was a problem sending your message. Please try again later.');
+        try {
+            // Send email
+            Mail::to("admin@mynexusbpo.com")->send(new ContactMail($data));
+
+            return redirect()->back()->with('success', 'Your message has been sent successfully!');
+        } catch (\Exception $e) {
+            // Return failure message without logging
+            return redirect()->back()->with('error', 'There was a problem sending your message. Please try again later.');
+        }
     }
-}
 
+
+    /*
 public function sendEmail()
     {
         try {
@@ -52,8 +53,8 @@ public function sendEmail()
             return redirect()->back()->with('error', 'There was a problem sending your message. Please try again later.');
         }
     } */
-    
-    public function sendEmail(Request $request)
+
+    /* public function sendEmail(Request $request)
     {
         // Validate input
         $data = $request->validate([
@@ -64,7 +65,7 @@ public function sendEmail()
         ]);
 
         // Email details
-        $to = "asifmdabir@gmail.com";  // Replace with the recipient's email address
+        $to = "admin@mynexusbpo.com";  // Replace with the recipient's email address
         $subject = $data['subject'];
         $message = "
         <html>
@@ -83,11 +84,10 @@ public function sendEmail()
         $headers .= "Content-type: text/html;charset=UTF-8\r\n";
 
         // Send the email
-        if(mail($to, $subject, $message, $headers)) {
+        if (mail($to, $subject, $message, $headers)) {
             return redirect()->back()->with('success', 'Your message has been sent successfully!');
         } else {
             return redirect()->back()->with('error', 'Failed to send your message. Please try again.');
         }
-    }
-
+    } */
 }
